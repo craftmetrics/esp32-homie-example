@@ -1,0 +1,7 @@
+# Override defaults
+CONFIG_WIFI_ENABLED=y
+
+# Project configuration
+CONFIG_WIFI_SSID="myssid"
+CONFIG_WIFI_PASSWORD="mypassword"
+CONFIG_MQTT_URI="mqtt://mqtt.example.com:1883"
