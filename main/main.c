@@ -72,6 +72,7 @@ void app_main()
         .base_topic = "homie",
         .firmware_name = "Example",
         .firmware_version = "0.0.1",
+        .ota_enabled = true,
     };
 
     homie_init(&homie_conf);
